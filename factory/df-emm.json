@@ -1,0 +1,15 @@
+{
+	"name": "df-emm",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d7ffee9-4e78-4fbc-bdb6-9721d6f72253",
+		"tenantId": "3a757c4e-7600-4a47-b4f8-c1842f84e84e"
+	}
+}
