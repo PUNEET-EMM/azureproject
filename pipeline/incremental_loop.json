@@ -7,6 +7,10 @@
 				"type": "ForEach",
 				"dependsOn": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
 					"isSequential": true,
 					"activities": [
 						{
